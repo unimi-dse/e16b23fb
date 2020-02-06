@@ -41,7 +41,7 @@ store any data and don’t specify any argument it uses TSLA data*
 
     train_arima()
 
-**Trains arima model**
+**Trains ARIMA model**
 
     forecast_NN
 
