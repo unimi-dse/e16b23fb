@@ -33,11 +33,11 @@ store any data and don’t specify any argument it uses TSLA data*
 
     plot_ema()
 
-**Plots a graph that shows the EMA’s **
+**Plots a graph that shows the EMA’s**
 
     forecast_arima()
 
-**Performs ARIMA model forecasting **
+**Performs ARIMA model forecasting**
 
     train_arima()
 
