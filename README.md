@@ -23,7 +23,7 @@ store any data and don’t specify any argument it uses TSLA data*
 
 **Downloads the dataset**
 
-    plot_data()
+    plot_stockp()
 
 **Plots the closing price of selected stock**
 
