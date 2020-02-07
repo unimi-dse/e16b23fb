@@ -5,7 +5,7 @@
 #' @param "data" character. The stock dataset that you want to use. If \code{NULL} (the default) selects TSLA  dataset.
 #'
 #' @return A graph of the last 6 months price and EMA's
-
+#'
 #' @examples
 #' plot_ema()
 #' plot_ema(aapl)

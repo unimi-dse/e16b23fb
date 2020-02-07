@@ -5,8 +5,7 @@
 #' @param "data" dataframe. The stock dataset that you want to use. If \code{NULL} (the default) selects TSLA dataset.
 #'
 #' @return A graph of the last 8 weeks
-
-
+#'
 #' @examples
 #' plot_zoom()
 #' plot_zoom(aapl)
