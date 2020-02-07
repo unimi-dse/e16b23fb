@@ -21,28 +21,28 @@ store any data and don’t specify any argument it uses TSLA data*
 
     get_data()
 
-**Downloads the dataset**
+**Download the dataset**
 
     plot_stockp()
 
-**Plots the closing price of selected stock**
+**Plot the closing price of selected stock**
 
     plot_zoom()
 
-**Plots a zoomed graph of the last 8 weeks**
+**Plot a zoomed graph of the last 8 weeks**
 
     plot_ema()
 
-**Plots a graph that shows the EMA’s**
+**Plot a graph that shows the EMA’s**
 
     forecast_arima()
 
-**Performs ARIMA model forecasting**
+**Perform ARIMA model forecasting**
 
     train_arima()
 
-**Trains arima model**
+**Train ARIMA model**
 
     forecast_NN
 
-**Performs forecasting with a Single Layer Neural Network Model**
+**Perform forecasting with a Single Layer Neural Network Model**
