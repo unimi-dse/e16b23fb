@@ -20,7 +20,7 @@ plot_stockp <- function(data=NULL,title=""){
   if(is.null(data))
     data <-get_data()
   data %>%
-    tidyquant::ggplot(aes(x = date, y = close)) +
+    ggplot2::ggplot(aes(x = date, y = close)) +
     geom_line() +
     labs(title = title, y = "Closing Price", x = "Years") +
     theme_tq()
