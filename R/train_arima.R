@@ -24,5 +24,5 @@ train_arima <- function (data=NULL){
   meanvalues <- as.vector(trainarimafit$mean)
   pr <- as.vector(test)
   plot(meanvalues, type= "l", col= "red")
-  lines(precios, type = "l")
+  lines(pr, type = "l")
 }
