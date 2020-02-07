@@ -9,8 +9,8 @@
 #' @param "from" date. The date you want to start. If \code{NULL} selects "2012-09-01"
 #' @param "to" date. The date you want to stop. If \code{NULL} selects today's date
 #' @return A dataset of the selected stock
-
-
+#'
+#'
 #' @examples
 #' get_data()
 #' get_data("AAPL")
@@ -21,7 +21,7 @@
 #'
 
 get_data <- function(id = "TSLA", from = "2012-09-01", to = Sys.Date()){
-  data <- tq_get(id, get = "stock.prices", from = from, to = to)
+  data <- tidyquant::tq_get(id, get = "stock.prices", from = from, to = to)
 
   return(data)
 

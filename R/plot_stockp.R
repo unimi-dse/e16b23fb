@@ -6,7 +6,7 @@
 #' @param "title" character. title that you want to assign to the graph.
 #'
 #' @return A graph of the stock price
-
+#'
 #' @examples
 #' plot_stockp()
 #' plot_stockp(aapl)
@@ -20,7 +20,7 @@ plot_stockp <- function(data=NULL,title=""){
   if(is.null(data))
     data <-get_data()
   data %>%
-    ggplot(aes(x = date, y = close)) +
+    tidyquant::ggplot(aes(x = date, y = close)) +
     geom_line() +
     labs(title = title, y = "Closing Price", x = "Years") +
     theme_tq()

@@ -13,7 +13,7 @@
 forecast_arima <- function (data=NULL){
   if(is.null(data))
     data <-get_data()
-  modelfit <- auto.arima(data$close, lambda = "auto")
+  modelfit <- forecast::auto.arima(data$close, lambda = "auto")
   Box.test(modelfit$residuals, lag= 2, type="Ljung-Box")
   Box.test(modelfit$residuals, type="Ljung-Box")
   price_forecast <- forecast(modelfit, h=30)
