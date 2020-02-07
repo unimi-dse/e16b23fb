@@ -13,7 +13,6 @@
 forecast_arima <- function (data=NULL){
   if(is.null(data))
     data <-get_data()
-  print(adf.test(data$close))
   modelfit <- auto.arima(data$close, lambda = "auto")
   Box.test(modelfit$residuals, lag= 2, type="Ljung-Box")
   Box.test(modelfit$residuals, type="Ljung-Box")
