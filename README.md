@@ -43,6 +43,6 @@ store any data and don’t specify any argument it uses TSLA data*
 
 **Trains arima model**
 
-    forecast_NN
+    forecast_NN()
 
 **Performs forecasting with a Single Layer Neural Network Model**
