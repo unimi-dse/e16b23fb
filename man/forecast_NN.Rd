@@ -7,10 +7,10 @@
 forecast_NN(data = NULL)
 }
 \arguments{
-\item{"data"}{The stock dataset that you want to use. If \code{NULL} (the default) selects TSLA  dataset.}
+\item{data}{dataframe. The stock dataset that you want to use. If \code{NULL} (the default) selects TSLA  dataset.}
 }
 \value{
-graph showing forecasted values
+Dataframe of the forecasted values and their graph
 }
 \description{
 Performs a neural network forecasting

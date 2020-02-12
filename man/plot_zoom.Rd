@@ -7,7 +7,7 @@
 plot_zoom(data = NULL, end = Sys.Date())
 }
 \arguments{
-\item{"data"}{dataframe. The stock dataset that you want to use. If \code{NULL} (the default) selects TSLA dataset.}
+\item{data}{dataframe. The stock dataset that you want to use. If \code{NULL} (the default) selects TSLA dataset.}
 }
 \value{
 A graph of the last 8 weeks
@@ -18,4 +18,5 @@ Plots last 8 weeks graph of the timeseries.
 \examples{
 plot_zoom()
 plot_zoom(aapl)
+
 }

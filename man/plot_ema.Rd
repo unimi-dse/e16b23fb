@@ -7,7 +7,7 @@
 plot_ema(data = NULL, end = Sys.Date())
 }
 \arguments{
-\item{"data"}{character. The stock dataset that you want to use. If \code{NULL} (the default) selects TSLA  dataset.}
+\item{data}{dataframe. The stock dataset that you want to use. If \code{NULL} (the default) selects TSLA  dataset.}
 }
 \value{
 A graph of the last 6 months price and EMA's
@@ -18,5 +18,6 @@ Plots the last 6 months with Exponential Moving Average
 \examples{
 plot_ema()
 plot_ema(aapl)
+
 
 }

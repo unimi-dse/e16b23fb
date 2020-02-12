@@ -7,11 +7,11 @@
 get_data(id = "TSLA", from = "2012-09-01", to = Sys.Date())
 }
 \arguments{
-\item{"id"}{character. Ticker of the desired stock. If \code{NULL} selects TSLA  dataset.}
+\item{id}{character. Ticker of the desired stock. If \code{NULL} selects TSLA  dataset.}
 
-\item{"from"}{date. The date you want to start. If \code{NULL} selects "2012-09-01"}
+\item{from}{date. The date you want to start. If \code{NULL} selects "2012-09-01"}
 
-\item{"to"}{date. The date you want to stop. If \code{NULL} selects today's date}
+\item{to}{date. The date you want to stop. If \code{NULL} selects today's date}
 }
 \value{
 A dataset of the selected stock

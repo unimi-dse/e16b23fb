@@ -10,7 +10,7 @@ train_arima(data = NULL)
 \item{data}{The stock dataset that you want to use. If \code{NULL} (the default) selects TSLA dataset.}
 }
 \value{
-Graph showing the mean tendency of our forecasting over the test set close price move
+First 200 meanvalues  and a graph showing the mean tendency of our forecasting over the test set close price move
 }
 \description{
 Trains arima model

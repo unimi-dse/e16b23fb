@@ -7,9 +7,9 @@
 plot_stockp(data = NULL, title = "")
 }
 \arguments{
-\item{"data"}{dataframe. The stock dataset that you want to used. If \code{NULL} (the default) selects TSLA  dataset.}
+\item{data}{dataframe. The stock dataset that you want to used. If \code{NULL} (the default) selects TSLA  dataset.}
 
-\item{"title"}{character. title that you want to assign to the graph.}
+\item{title}{character. title that you want to assign to the graph.}
 }
 \value{
 A graph of the stock price
@@ -21,4 +21,6 @@ Plots a graph of the closing price vector.
 plot_stockp()
 plot_stockp(aapl)
 plot_stockp(tsla,TSLA)
+
+
 }

@@ -7,10 +7,10 @@
 forecast_arima(data = NULL)
 }
 \arguments{
-\item{"data"}{The stock dataset that you want to use. If \code{NULL} selects TSLA  dataset.}
+\item{data}{dataframe. The stock dataset that you want to use. If \code{NULL} selects TSLA  dataset.}
 }
 \value{
-Graph showing forecasted values
+Price forecast mean and a graph showing forecasted values
 }
 \description{
 Performs arima forecasting
