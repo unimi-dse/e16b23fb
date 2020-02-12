@@ -2,13 +2,14 @@
 #'
 #' Plots the last 6 months with Exponential Moving Average
 #'
-#' @param "data" character. The stock dataset that you want to use. If \code{NULL} (the default) selects TSLA  dataset.
+#' @param data dataframe. The stock dataset that you want to use. If \code{NULL} (the default) selects TSLA  dataset.
 #'
 #' @return A graph of the last 6 months price and EMA's
 #'
 #' @examples
 #' plot_ema()
 #' plot_ema(aapl)
+#'
 #'
 #' @export
 #'
@@ -27,6 +28,6 @@ plot_ema <- function(data=NULL, end=Sys.Date()) {
          subtitle = "50 and 200-Day EMA",
          y = "Closing Price", x = "Time") +
     coord_x_date(xlim = c(end - weeks(24), end),
-                 ylim = c(150, 700)) +
+                 ylim = c(min(data$close), max(data$close)+(max(data$close)/100)*10)) +
     theme_tq()
 }
